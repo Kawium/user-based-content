@@ -1,0 +1,31 @@
+GET http://localhost:4000/post
+
+###
+
+GET http://localhost:4000/post/all
+
+###
+
+POST http://localhost:4000/post
+Content-Type: application/json
+
+{
+    "title": "Bmw 3 series",
+    "text": "Found a BMW 3 series in good condition"
+}
+
+###
+
+PUT http://localhost:4000/post/6267f6b60a16df84157a96ec
+Content-Type: application/json
+
+{
+    "username": "DriverKid",
+    "title": "Bmw 3 series",
+    "description": "Good condition",
+    "_id": "6267f6b60a16df84157a96ec"
+}
+
+###
+
+DELETE http://localhost:4000/post/626154de440464adb9603c4d

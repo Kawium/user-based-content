@@ -1,0 +1,45 @@
+.addPostContainer {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.fs-5 {
+  color: rgb(181, 181, 181);
+}
+
+.remove-btn {
+  cursor: pointer;
+  margin-bottom: 0;
+  padding-left: 0.7rem;
+}
+
+.addBtn {
+  width: 8rem;
+  font-size: 1rem;
+  align-self: center;
+  margin: 1rem 0;
+}
+
+.newBtn {
+  width: 8rem;
+  font-size: 1rem;
+  margin: 1rem 4rem;
+}
+
+.formAddPost {
+  width: 15rem;
+}
+
+.interactIcons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.postDate {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+}
